@@ -32,6 +32,7 @@
   ## Safety
 
   The app **never** touches:
+
   - `C:\Windows\System32`, `SysWOW64`, `WinSxS`, or any Windows system directories
   - `Program Files` or `Program Files (x86)`
   - Your `Documents`, `Pictures`, `Videos`, `Music`, `Desktop`, or `OneDrive` folders (during category cleans)
@@ -44,15 +45,13 @@
 
   Requires Python 3.13. Then:
 
+  ```
   py -m pip install -r requirements.txt
   build.bat
+  ```
 
   Outputs land in `dist/`.
 
   ## License
 
   MIT — do what you want with it.
-
-  5. Scroll down, commit message: Write proper README, click Commit changes.
-
-  Step 4 (next): Create the Release with the .exe
